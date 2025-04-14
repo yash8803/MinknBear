@@ -1,0 +1,2 @@
+D:/Applications/minknbear/android/app/.cxx/Debug/5o4a3e1n/x86/CMakeFiles/edit_cache.dir
+D:/Applications/minknbear/android/app/.cxx/Debug/5o4a3e1n/x86/CMakeFiles/rebuild_cache.dir

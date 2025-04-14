@@ -1,0 +1,78 @@
+name: shopify_flutter
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  cached_network_image: ^3.3.1
+  carousel_slider:
+  flutter:
+    sdk: flutter
+  flutter_dotenv: ^5.1.0
+  flutter_html:
+  flutter_html_table:
+  flutter_layout_grid:
+  flutter_svg: ^2.0.10+1
+  graphql_flutter: ^5.1.2
+  intl: ^0.19.0
+  provider: ^6.1.2
+  share_plus: ^9.0.0
+  shared_preferences: ^2.2.3
+  url_launcher:
+  webview_flutter: ^4.7.0
+  flutter_launcher_icons: ^0.14.2
+  connectivity_plus:
+  intl_phone_number_input:
+  sqflite: ^2.2.1
+  path: ^1.8.3
+  flutter_native_splash: ^2.0.5
+  shimmer:
+  iconify_flutter:
+  confetti: ^0.8.0
+  syncfusion_flutter_sliders:
+  animate_do:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/mnb_icon.png"
+  adaptive_icon_foreground: "assets/mnb_icon.png"
+  adaptive_icon_background: "#ffffff"
+
+
+flutter_native_splash:
+  color: "#ffffff"  # The background color of the splash screen
+  image: assets/mnb_splash.jpg  # The image displayed on the splash screen (optional)
+  android: true  # Enable for Android
+  ios: true  # Enable for iOS
+  web: false  # Disable for web (optional)
+
+
+flutter: 
+  uses-material-design: true
+
+  assets:
+    - .env
+    - assets/social-icons/facebook.svg
+    - assets/social-icons/instagram.svg
+    - assets/social-icons/tiktok.svg
+    - assets/social-icons/x.svg
+    - assets/social-icons/youtube.svg
+    - assets/mnb_splash.jpg
+    - assets/payment/
+    - assets/finalbanner.jpg
+    - assets/banner3.jpg
+
+  fonts:
+    - family: Futura
+      fonts:
+        - asset: assets/futura.ttf
