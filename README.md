@@ -79,9 +79,6 @@ Screenshots
 Registration	Home Screen	Product Details	Checkout
 			
 Project Structure
-text
-
-Copy
 minknbear/
 ├── android/                # Android-specific files
 ├── ios/                    # iOS-specific files
@@ -94,14 +91,8 @@ minknbear/
 ├── doc/                    # Documentation and screenshots
 ├── test/                   # Unit and widget tests
 └── pubspec.yaml            # Dependencies and config
-Contributing
-Contributions are welcome! Please follow these steps:
 
-Fork the repository.
-Create a feature branch (git checkout -b feature-name).
-Commit changes (git commit -m "Add feature").
-Push to the branch (git push origin feature-name).
-Open a pull request.
+
 License
 This project is licensed under the MIT License. See the  file for details.
 
